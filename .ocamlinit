@@ -1,0 +1,13 @@
+(* ~/.ocamlinit *)
+#require "oUnit";;
+#require "graphics";;
+#require "ANSITerminal";;
+
+#directory "_build";;
+#load "board.cmo";;
+#load "graphics.cma";;
+#load "player.cmo";;
+#load "gui.cmo"
+#load "cards.cmo";;
+#load "state.cmo";;
+(* define all modules here*)

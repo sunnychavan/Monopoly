@@ -1,0 +1,170 @@
+[
+  {
+    "name": "You have been elected Chairman of the Board.",
+    "description": "Pay each player $50.",
+    "action type": {
+      "type": "money",
+      "amount": [
+        -50
+      ],
+      "object": false
+    }
+  },
+  {
+    "name": "Advance to 'Go'.",
+    "description": "Collect $200.",
+    "action type": {
+      "type": "move",
+      "destination": [
+        0
+      ],
+      "altered": false
+    }
+  },
+  {
+    "name": "Advance to Illinois Ave.",
+    "description": "If you pass Go, collect $200.",
+    "action type": {
+      "type": "move",
+      "destination": [
+        24
+      ],
+      "altered": false
+    }
+  },
+  {
+    "name": "Advance to St. Charles Place.",
+    "description": "If you pass Go, collect $200.",
+    "action type": {
+      "type": "move",
+      "destination": [
+        11
+      ],
+      "altered": false
+    }
+  },
+  {
+    "name": "Advance token to the nearest Utility.",
+    "description": "If unowned, you may buy it from the Bank.",
+    "action type": {
+      "type": "move",
+      "destination": [
+        12,
+        28
+      ],
+      "altered": true
+    }
+  },
+  {
+    "name": "Advance to the nearest Railroad.",
+    "description": "If unowned, you may buy it from the Bank. If owned, pay owner the normal rent.",
+    "action type": {
+      "type": "move",
+      "destination": [
+        5,
+        15,
+        25,
+        35
+      ],
+      "altered": true
+    }
+  },
+  {
+    "name": "Advance to the nearest Railroad.",
+    "description": "If unowned, you may buy it from the Bank. If owned, pay owner the normal rent.",
+    "action type": {
+      "type": "move",
+      "destination": [
+        5,
+        15,
+        25,
+        35
+      ],
+      "altered": true
+    }
+  },
+  {
+    "name": "Bank pays you dividend of $50.",
+    "description": "",
+    "action type": {
+      "type": "money",
+      "amount": [
+        50
+      ],
+      "object": true
+    }
+  },
+  {
+    "name": "Get out of Jail Free.",
+    "description": "This card may be kept until needed.",
+    "action type": {
+      "type": "gojf"
+    }
+  },
+  {
+    "name": "Advance to Pennsylvania Avenue.",
+    "description": "If you pass Go, collect $200.",
+    "action type": {
+      "type": "move",
+      "destination": [
+        34
+      ],
+      "altered": false
+    }
+  },
+  {
+    "name": "Go to Jail.",
+    "description": "Go directly to Jail. Do not pass GO, do not collect $200.",
+    "action type": {
+      "type": "move",
+      "destination": [
+        10
+      ],
+      "altered": false
+    }
+  },
+  {
+    "name": "Pay poor tax of $15.",
+    "description": "",
+    "action type": {
+      "type": "money",
+      "amount": [
+        -15
+      ],
+      "object": true
+    }
+  },
+  {
+    "name": "Take a trip to Reading Railroad.",
+    "description": "If you pass Go, collect $200.",
+    "action type": {
+      "type": "move",
+      "destination": [
+        5
+      ],
+      "altered": false
+    }
+  },
+  {
+    "name": "Take a walk on the Boardwalk.",
+    "description": "Advance token to Boardwalk.",
+    "action type": {
+      "type": "move",
+      "destination": [
+        39
+      ],
+      "altered": false
+    }
+  },
+  {
+    "name": "Your building matures.",
+    "description": "Receive $150.",
+    "action type": {
+      "type": "money",
+      "amount": [
+        150
+      ],
+      "object": true
+    }
+  }
+]
